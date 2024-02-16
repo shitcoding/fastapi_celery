@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-celery"
+version = "0.0.1"
+description = "Fastapi + Celery based app"
+authors = ["Vasiliy Ivanov <shitcoder@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+celery = "^5.3.6"
+redis = "^5.0.1"
+flower = "^2.0.1"
+sqlalchemy = "^2.0.27"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
